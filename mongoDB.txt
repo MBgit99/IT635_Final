@@ -1,0 +1,179 @@
+Generating List of Employees: 
+MongoDB\Driver\Cursor Object
+(
+    [cursor] => Array
+        (
+            [stamp] => 0
+            [is_command] => 
+            [sent] => 1
+            [done] => 
+            [end_of_event] => 
+            [in_exhaust] => 
+            [has_fields] => 
+            [query] => stdClass Object
+                (
+                    [find] => employees
+                    [filter] => stdClass Object
+                        (
+                        )
+
+                )
+
+            [fields] => stdClass Object
+                (
+                )
+
+            [read_preference] => Array
+                (
+                    [mode] => 1
+                    [tags] => Array
+                        (
+                        )
+
+                )
+
+            [flags] => 0
+            [skip] => 0
+            [limit] => 0
+            [count] => 1
+            [batch_size] => 0
+            [ns] => ironworks.employees
+            [current_doc] => stdClass Object
+                (
+                    [_id] => MongoDB\BSON\ObjectID Object
+                        (
+                            [oid] => 590dd2eff36d281fc3b91724
+                        )
+
+                    [Fname] => Jim
+                    [Lname] => Dorset
+                    [EID] => 1
+                    [Address] => 323 Conclin Dr
+                    [City] => Timbucktu
+                    [State] => NJ
+                )
+
+        )
+
+    [server_id] => 1
+)
+object(stdClass)#8 (7) {
+  ["_id"]=>
+  object(MongoDB\BSON\ObjectID)#9 (1) {
+    ["oid"]=>
+    string(24) "590dd2eff36d281fc3b91724"
+  }
+  ["Fname"]=>
+  string(3) "Jim"
+  ["Lname"]=>
+  string(6) "Dorset"
+  ["EID"]=>
+  string(1) "1"
+  ["Address"]=>
+  string(14) "323 Conclin Dr"
+  ["City"]=>
+  string(9) "Timbucktu"
+  ["State"]=>
+  string(2) "NJ"
+}
+
+object(stdClass)#6 (7) {
+  ["_id"]=>
+  object(MongoDB\BSON\ObjectID)#7 (1) {
+    ["oid"]=>
+    string(24) "590dd382f36d281fc3b9173d"
+  }
+  ["Fname"]=>
+  string(5) "Percy"
+  ["Lname"]=>
+  string(7) "Fawcett"
+  ["EID"]=>
+  string(1) "2"
+  ["Address"]=>
+  string(17) "1925 Amazonia Way"
+  ["City"]=>
+  string(7) "Torquay"
+  ["State"]=>
+  string(2) "NJ"
+}
+
+object(stdClass)#9 (7) {
+  ["_id"]=>
+  object(MongoDB\BSON\ObjectID)#8 (1) {
+    ["oid"]=>
+    string(24) "590dd431f36d281fc3b9175f"
+  }
+  ["Fname"]=>
+  string(5) "James"
+  ["Lname"]=>
+  string(8) "Farragut"
+  ["EID"]=>
+  string(1) "3"
+  ["Address"]=>
+  string(15) "1812 Madison Ct"
+  ["City"]=>
+  string(7) "Minorca"
+  ["State"]=>
+  string(2) "NJ"
+}
+
+object(stdClass)#7 (7) {
+  ["_id"]=>
+  object(MongoDB\BSON\ObjectID)#6 (1) {
+    ["oid"]=>
+    string(24) "590dd49ff36d281fc3b91771"
+  }
+  ["Fname"]=>
+  string(7) "Stephen"
+  ["Lname"]=>
+  string(7) "Decatur"
+  ["EID"]=>
+  string(1) "4"
+  ["Address"]=>
+  string(15) "1801 Essex Lane"
+  ["City"]=>
+  string(10) "Sinepuxent"
+  ["State"]=>
+  string(2) "NJ"
+}
+
+object(stdClass)#8 (7) {
+  ["_id"]=>
+  object(MongoDB\BSON\ObjectID)#9 (1) {
+    ["oid"]=>
+    string(24) "590dd528f36d281fc3b9179f"
+  }
+  ["Fname"]=>
+  string(7) "Ettiene"
+  ["Lname"]=>
+  string(12) "de Vignolles"
+  ["EID"]=>
+  string(1) "5"
+  ["Address"]=>
+  string(14) "1421 Bauge Way"
+  ["City"]=>
+  string(9) "Montauban"
+  ["State"]=>
+  string(2) "NJ"
+}
+
+object(stdClass)#6 (7) {
+  ["_id"]=>
+  object(MongoDB\BSON\ObjectID)#7 (1) {
+    ["oid"]=>
+    string(24) "590dd581f36d281fc3b917b2"
+  }
+  ["Fname"]=>
+  string(7) "Charles"
+  ["Lname"]=>
+  string(6) "Martel"
+  ["EID"]=>
+  string(1) "6"
+  ["Address"]=>
+  string(15) "732 Tours Drive"
+  ["City"]=>
+  string(5) "Frank"
+  ["State"]=>
+  string(2) "NJ"
+}
+
